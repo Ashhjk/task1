@@ -1,0 +1,57 @@
+1. Concepts of Git
+* Repository
+A Git repository is a central storage location for managing and tracking changes in files and directories. It is a crucial component of the Git version control system, which allows multiple developers to work on a project simultaneously .
+* Cloning
+Cloning basically means we want to get a local copy of the code present in the repository. After cloning,  we can  then do whatever changes we like in the code ,the original repository also changes.
+* Forking
+Forking creates your own copy of a repository in a remote location. We will be able to contribute changes to our copy of the repository without affecting the original repository.
+* Branch
+Git Branches allow us to work on different versions of our code simultaneously. If we make changes on one branch, they do not impact the other branches until we merge or integrate the changes.
+* Merge
+Git marge will help to combine the changes from two or more branches into a single branch. Developers will work on different branches to improve code or to develop the code after completion we can merge them into a single version of the code.
+* Pull Request
+Pull requests let you tell others about changes you've pushed to a branch in a repository on GitHub. Once a pull request is opened, collaborators can engage in discussions about the proposed changes.The pull request provides a platform for reviewing the code modifications, suggesting improvements, and addressing concerns.
+
+2.Basic Commands 
+* Git config
+Git config lets you get and set configuration variables that control all aspects of how Git looks and operates.
+* Git init
+ git init command is to initialize the new working environment or a new git repository to work on a new project. Before performing the git init command git will not track the files that are in the system.After initializing you can commit the files and push them to the remote repository.
+
+* Git clone
+git clone creates a local copy of a project that already exists remotely. The clone includes all the project's files, history, and branches.
+* Git add
+git add command is used to add all the local changes of your working copy to staging area so that those changes can be committed to you local repository.
+* Git commit
+used to save changes to the local repository. When you make modifications to your project's files and want to record those changes in the version history, you use the git commit command.
+* Git branch
+Shows the branches that are worked on locally
+* Git push
+The git push command is used to upload local repository content to a remote repository
+* Git Pull
+The pull command is used to access the changes from a remote repository to the local repository
+* Git merge
+ The git merge command facilitates you to take the data created by git branch and integrate them into a single branch
+
+3.GITHUB
+    It is web based platform for version control using git.It provides a collaborative environment for software developers to host and review codes, manage projects and facilitate team collaboration.It is a widely used platform for both open source and private software development projects.
+BITBUCKET
+ Bitbucket is the repository management tool that is specially built for expert teams and professionals. It is also called as Git repository management software and is a central hub for handling all the Git repository. It allows users to do basic Git operations such as reviewing or merging code.Bitbucket is focused on private repositories while GitHub is a better fit for public repositories.
+
+
+GITLAB
+It is a web based git repository that provides free open and private repositories,issue-following capabilities. It is a complete DevOps platform that enables professionals to perform all the task in a project from project planning and source code management to monitoring and security.
+4.Industrial practices of using git
+* Branching: Creating multiple branches helps in working on parallel development and enables independent development.Also before merging the branches to the main code we can review the code and correct errors.
+* Code reviewing: Git allows easy debugging of code. It also act as platform to discuss the errors in other’s code thus it helps in improving the knowledge of each of the team member.
+* Code reuse: Code reuse in Git is immensely valuable in industrial practices as it promotes efficiency, consistency, and maintainability in software development.  It facilitates easier maintenance and updates, as changes made to the reusable components are automatically reflected in all projects that utilize them.
+* Commit messages: provides essential context and information about the purpose and scope of a code change making it easier for team members to understand the reason behind specific modifications in the code.
+5.Clone a repo to local
+* Open the GitHub repository in your web browser.
+* Click on the "Code" button above the file list.
+* Copy Repository URL
+* Launch Git Bash on your local machine.
+* Use ‘cd’ command to change the current working directory
+* Type the git clone command followed by the URL you copied earlier.
+*  Once the process is complete, you'll have a local copy of the repository on your machine.
+
